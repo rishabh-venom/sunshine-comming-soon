@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunshine BirdWorld</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .home {
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+
+        background-image: url("images/desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .home {
+          background-image: url("images/mobile.png");
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home"></div>
+  </body>
+</html>
